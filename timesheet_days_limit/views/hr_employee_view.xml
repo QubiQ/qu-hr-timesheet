@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2019 Joan Segui <joan.segui@qubiq.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="days_limit_view_employee_form" model="ir.ui.view">
+        <field name="name">days.limit.view.employee.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='tz']" position="after">
+                <field name="check_timesheet_day"/>
+                <field name="timesheet_days_back" attrs="{'invisible': [('check_timesheet_day', '=', False)]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

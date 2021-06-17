@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* timesheet_days_limit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-28 09:22+0000\n"
+"PO-Revision-Date: 2019-02-28 10:53+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+
+#. module: timesheet_days_limit
+#: code:addons/timesheet_days_limit/models/hr_employee.py:13
+#: model:ir.model.fields,help:timesheet_days_limit.field_hr_employee_check_timesheet_day
+#, python-format
+msgid "Allows to review the day of imputation of the hours"
+msgstr "Permite revisar el día de imputación de las horas"
+
+#. module: timesheet_days_limit
+#: model:ir.model,name:timesheet_days_limit.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Línea Analítica"
+
+#. module: timesheet_days_limit
+#: code:addons/timesheet_days_limit/models/hr_employee.py:11
+#: model:ir.model.fields,field_description:timesheet_days_limit.field_hr_employee_check_timesheet_day
+#, python-format
+msgid "Check day of the time sheet"
+msgstr "Verificar el día del parte de horas"
+
+#. module: timesheet_days_limit
+#: code:addons/timesheet_days_limit/models/hr_employee.py:18
+#: model:ir.model.fields,help:timesheet_days_limit.field_hr_employee_timesheet_days_back
+#, python-format
+msgid "Days left until the imputation deadline"
+msgstr "Días restantes a la fecha limite de imputación"
+
+#. module: timesheet_days_limit
+#: model:ir.model,name:timesheet_days_limit.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: timesheet_days_limit
+#: code:addons/timesheet_days_limit/models/hr_employee.py:16
+#: model:ir.model.fields,field_description:timesheet_days_limit.field_hr_employee_timesheet_days_back
+#, python-format
+msgid "Remaining days"
+msgstr "Días restantes"
+
+#. module: timesheet_days_limit
+#: code:addons/timesheet_days_limit/models/account_analytic_line.py:19
+#, python-format
+msgid ""
+"The indicated date is higher than the allowed one, consult a superior action "
+"to be able to do it."
+msgstr ""
+"La fecha indicada es superior a la permitida, consulte con un superior para "
+"poder realizar la acción."
