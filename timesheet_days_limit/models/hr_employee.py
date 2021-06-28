@@ -4,8 +4,8 @@
 from odoo import fields, models
 
 
-class HrEmployee(models.Model):
-    _inherit = "hr.employee"
+class HrEmployee(models.AbstractModel):
+    _inherit = "hr.employee.base"
 
     check_timesheet_day = fields.Boolean(
         string='Check day of the time sheet',
