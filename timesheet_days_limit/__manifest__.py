@@ -4,7 +4,7 @@
 {
     "name": "Timesheet Days Limit",
     "summary": "Limit imputations in the timesheet by employee.",
-    "version": "13.0.1.0.0",
+    "version": "16.0.1.0.0",
     "author": "QubiQ, Odoo Community Association (OCA)",
     "website": "https://www.qubiq.es",
     "category": "Timesheet",

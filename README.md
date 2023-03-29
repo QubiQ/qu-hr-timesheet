@@ -8,6 +8,6 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[timesheet_days_limit](timesheet_days_limit/) | 13.0.1.0.0 | Limit imputations in the timesheet by employee
+[timesheet_days_limit](timesheet_days_limit/) | 16.0.1.0.0 | Limit imputations in the timesheet by employee
 
 [//]: # (end addons)
